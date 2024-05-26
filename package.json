@@ -1,0 +1,27 @@
+{
+  "name": "task-master-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn ts-node-dev --clear --inspect --transpile-only --ignore node_modules -r dotenv/config src/server.ts service:"
+  },
+  "author": "Luan Santos",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "reflect-metadata": "^0.2.2",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^5.4.5"
+  }
+}
